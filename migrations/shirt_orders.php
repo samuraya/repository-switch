@@ -1,4 +1,9 @@
 <?php
+
+//Uncomment all to run migration
+//******************
+
+/* 
 require "bootstrap.php";
 
 
@@ -16,3 +21,5 @@ Capsule::schema()->create('shirt_orders', function ($table) {
    	$table->integer('wrist_size')->unsigned();   	
 
 });
+
+*/

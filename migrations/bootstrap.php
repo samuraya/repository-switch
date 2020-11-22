@@ -1,5 +1,9 @@
 <?php
 
+//Uncomment all to perform the migrations for shirt_orders.php file
+//***************************************
+
+/*
 require __DIR__ . '/../vendor/autoload.php';
 
 use Illuminate\Database\Capsule\Manager as Capsule;
@@ -30,3 +34,5 @@ $capsule->setAsGlobal();
 // Setup the Eloquent ORM.
 $capsule->bootEloquent();
 $capsule->bootEloquent();
+
+*/
