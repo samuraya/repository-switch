@@ -1,4 +1,4 @@
-# Dynamic Repository switch
+# Repository switch
 
 ## Demo app is here: https://order-shirt-app.herokuapp.com/all
 
