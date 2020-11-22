@@ -34,7 +34,7 @@ class CacheShirtOrderRepository implements ShirtOrderRepositoryInterface
 	{	
         
         $orders = [];
-        foreach (new APCUIterator($this->regex) as $order) {
+        foreach (new \APCUIterator($this->regex) as $order) {
             $orders[]=$order['value'];
                      
         }
