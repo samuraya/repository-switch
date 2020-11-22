@@ -22,7 +22,8 @@
         "narrowspark/http-emitter": "^1.0",
         "laminas/laminas-diactoros": "^2.5",
         "predis/predis": "^1.1",
-        "slim/php-view": "^3.0"
+        "slim/php-view": "^3.0",
+        "ext-apcu":"*"
     },
     "autoload": {
         "psr-4": {
