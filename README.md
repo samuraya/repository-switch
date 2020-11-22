@@ -33,14 +33,17 @@ This is the basic native php caching service APCU that represents in memory repo
 The model extends standalone eloquent model (no laravel included) and is a standard data object that is injected into all repositories used.
 
 ## RepositorySelector
-This is an implementation of PSR MiddlewareInterface that contains the logic and of deciding which repository implementation should be used.
-Once decided it will instanciate every repository class needed, inject dependencies and releases the request to the next layer -> controllers.
+This is an implementation of PSR MiddlewareInterface that contains the logic of deciding which repository implementation should be used.
+Next it will instanciate every repository class needed, inject dependencies and releases the request to the next layer -> controllers.
 
 ## Front-end UI
 Contains boilerplate basic html, javascript and css files to provide some interface for users to test the app.
 Pages: /all, /view, /edit, /create
 On every interaction with a particular repository th feedback is returned in the bottow left corner in bold red text.
 two orange buttons can be used to toggle repository data sources. 
+
+## PHP -DI
+DI container is used in order to autowire and maintain application-wide dependencies.
 
 ## Tests
 The tests only cover repository classes
