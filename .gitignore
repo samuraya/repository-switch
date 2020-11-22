@@ -9,7 +9,7 @@ cache.properties
 .phpunit.result.cache
 
 
-!vendor/
+vendor/
 build/
 node_modules/
 
