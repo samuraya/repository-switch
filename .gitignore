@@ -1,0 +1,41 @@
+.idea/
+nbproject/
+composer.phar
+!composer.lock
+.DS_STORE
+cache.properties
+.php_cs.cache
+.vscode
+.phpunit.result.cache
+
+
+vendor/
+build/
+node_modules/
+
+.env
+public/.env
+
+env.php
+
+!tmp/assets/
+tmp/assets/*
+!tmp/assets/empty
+
+
+
+!tmp/routes/
+tmp/routes/*
+!tmp/routes/empty
+
+
+# Sublime Text #
+################
+*.sublime-workspace
+# keep any sublime-project files within version control
+ *.sublime-project
+
+
+
+
+

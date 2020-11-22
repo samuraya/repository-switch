@@ -1,0 +1,37 @@
+
+
+        <div class="container">
+           
+            <form action="/update" method="POST">
+                <div class="form-group">
+
+                    <h3>Order # <?=$orders['id']?> </h3>
+                   
+                    <input type="text" class="form-control" name="id" value="<?=$orders['id']?>" hidden>
+
+                    <label for="name">Customer Id</label>
+                    <input type="text" class="form-control" name="customer_id" value="<?=$orders['customer_id']?>">
+
+                    <label for="name">Fabric Id</label>
+                    <input type="text" class="form-control" name="fabric_id" value="<?=$orders['fabric_id']?>">
+
+
+                    <label for="name">Collar Size</label>
+                    <input type="text" class="form-control" name="collar_size" value="<?=$orders['collar_size']?>">
+
+                    <label for="name">Chest Size</label>
+                    <input type="text" class="form-control" name="chest_size" value="<?=$orders['chest_size']?>">
+
+                    <label for="name">Waist Size</label>
+                    <input type="text" class="form-control" name="waist_size" value="<?=$orders['waist_size']?>">
+
+                    <label for="name">Wrist Size</label>
+                    <input type="text" class="form-control" name="wrist_size" value="<?=$orders['wrist_size']?>">
+                   
+                </div>
+
+                 
+                
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>   

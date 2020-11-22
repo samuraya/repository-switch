@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="<?=ASSETS_ROOT?>css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?=ASSETS_ROOT?>css/style.css">
+    <link rel="shortcut icon" href="<?=ASSETS_ROOT?>img/favicon.ico" type="image/x-icon">
+
+    <title>Shirt Order System</title>    
+   
+  </head>
+  <body class="d-flex flex-column h-100">
+    
+    <div class="container pt-4 pb-4">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarsExample09">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/all">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/create">Create</a>
+                    </li>                   
+                    
+
+                </ul>
+                
+
+
+               <a href="/refresh"><button class="btn btn-warning btn-sm">Refresh Current Data Source</button></a>
+
+
+
+
+
+
+
+            </div>
+        </nav>
+    </div>        
+    <main role="main" class="flex-shrink-0">
+
+        <?=$content?>
+                   
+    </main>      
+    <footer class="footer mt-auto py-3">
+        <div class="container pb-5">
+            <hr>
+            <span class="text-muted">
+                    Copyright &copy; 2019 | <a href="https://github.com/samuraya">My Github</a>
+            </span>
+        </div>
+    </footer>
+
+    
+    <script src="<?=ASSETS_ROOT?>js/jquery-3.3.1.slim.min.js"></script>
+    <script src="<?=ASSETS_ROOT?>js/popper.min.js"></script>
+    <script src="<?=ASSETS_ROOT?>js/bootstrap.min.js"></script>
+  </body>
+</html>

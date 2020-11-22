@@ -1,0 +1,23 @@
+
+<div class="container">
+	 <div class="btn-group">
+                  <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Change data source
+                  </button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="<?=parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);?>?source=truth">Mysql Database</a>
+                    <a class="dropdown-item" href="<?=parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);?>?source=cache">APCU Cache in memory</a>                   
+                  </div>
+     </div>
+
+    <h1>View Order Details</h1>
+    <p>Order Id: <?=$orders['id']?></p>
+    <p>Customer Id: <?=$orders['customer_id']?></p>
+    <p>Fabric Id: <?=$orders['fabric_id']?></p>
+    <p>Collar size: <?=$orders['collar_size']?></p>
+    <p>Chest Size: <?=$orders['chest_size']?></p>
+    <p>Waist size: <?=$orders['waist_size']?></p>
+    <p>Wrist Size: <?=$orders['wrist_size']?></p>
+</div>
+
+    
