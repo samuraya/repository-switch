@@ -34,7 +34,10 @@ The model extends standalone eloquent model (no laravel included) and is a stand
 
 ## RepositorySelector
 This is an implementation of PSR MiddlewareInterface that contains the logic to decide which repository implementation should be used.
-Next it will instanciate every repository class needed, inject dependencies and releases the request to the next layer -> controllers.
+Next it instanciates every repository class needed, inject dependencies and releases the request to the next layer -> controllers.
+
+## Single file 
+There is only one place where new data source repository has to be provided in order to include it into application. Folder "config" -->> "datasources.php" .
 
 ## Front-end UI
 Contains boilerplate basic html, javascript and css files to provide some interface for users to test the app.
