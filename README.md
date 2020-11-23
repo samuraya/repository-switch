@@ -15,7 +15,7 @@ Basic front-end UI is also given in order to test capabilities and behavior.
 
 ## Project structure
 The main folder "src" contains core classes that build the logic and behavior of the app. 
-There are separate controllers for each CRUD action whose. 
+There are separate controllers for each CRUD action. 
 There are two Repository implementations of a ShirtOrderRepositoryInterface to demonstrate the overall behavior.
 There is one core Middleware class that performs switching between the repository implementations according to the incoming request.
 
