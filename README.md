@@ -33,7 +33,7 @@ This is the basic native php caching service APCU that represents in memory repo
 The model extends standalone eloquent model (no laravel included) and is a standard data object that is injected into all repositories used.
 
 ## RepositorySelector
-This is an implementation of PSR MiddlewareInterface that contains the logic of deciding which repository implementation should be used.
+This is an implementation of PSR MiddlewareInterface that contains the logic to decide which repository implementation should be used.
 Next it will instanciate every repository class needed, inject dependencies and releases the request to the next layer -> controllers.
 
 ## Front-end UI
